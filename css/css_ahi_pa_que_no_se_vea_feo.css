@@ -47,6 +47,7 @@ hr {
     margin: 0;
     font-size: 3rem;
     font-weight: bold;
+    text-align: center;
 }
 
 /* inputs  */
@@ -61,12 +62,15 @@ input[type=number], select {
 
   input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
     color: white;
     padding: 8px 20px;
     margin: 8px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+  }.btn-pal {
+      background-color: #00BFFF;
+  }.btn-prim {
+    background-color: #4CAF50;
   }
   
